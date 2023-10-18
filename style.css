@@ -1,0 +1,50 @@
+.item {
+    display: flex;
+    justify-content: space-around;
+    gap:45px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+button {
+    height:50px;
+    width:200px;
+    margin-top: 30px;
+    border:0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.377);
+    font-size: 1.3rem;
+    color:white;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+h1,h2 {
+    text-align: center ;
+}
+span {
+    color:rgb(196, 22, 22);
+}
+h1 {
+    color:white;
+    font-size:3.5rem;
+}
+h2 {
+    font-size: 3rem;
+    color:white;
+}
+.container {
+    background-image:url(./work-out.png);
+    padding: 25px;
+    border-radius: 30px;
+
+}
+#Pushups {
+    text-decoration: line-through;
+    color:grey;
+}
